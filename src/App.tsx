@@ -1,10 +1,16 @@
+import  styles from './App.module.css'
+
+
+import { Header } from "./components/Header"
 
 function App() {
 
   return (
-    <>
-     <h1>Hello world</h1>
-    </>
+    <div className={styles.container}>
+      <main>
+          <Header />
+      </main>
+    </div>
   )
 }
 
